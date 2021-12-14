@@ -8,7 +8,7 @@ body {
   background-image: url('imagenes/fondo.jpg');
 }
 
-.class_formulario {
+.class_index {
   width: 400px;
   background: #952F57;
   padding: 30px;
@@ -21,13 +21,13 @@ body {
   box-shadow: 7px 13px 37px #000;
 }
 
-.class_formulario h4 {
+.class_index h4 {
   text-align: center;
   font-size: 22px;
   margin-bottom: 30px;
 }
 
-.controls {
+.class_index .controls {
   width: 100%;
   background: white;
   padding: 10px;
@@ -39,7 +39,7 @@ body {
   color: black;
 }
 
-.botons {
+.class_index .botons {
   cursor: pointer;
   width: 100%;
   background: white;
@@ -61,5 +61,11 @@ body {
   margin: 16px 0;
   font-size: 16px;
   margin-top: 40px;
+}
+
+.htext{
+  font-family: 'times new roman';
+  margin-left: 100px;
+  color: white;
 }
 

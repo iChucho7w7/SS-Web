@@ -4,19 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="CSS/estilo.css">
-  <title>Formulario</title>
+  <link rel="stylesheet" href="CSS/index_style.css">
+  <title>Acceso</title>
 </head>
 <body>
-  <form action="main.php" method="POST" enctype="multipart/form-data">
-    <section class="class_formulario">
-      <h4>Formulario</h4>
-      <input class="controls" type="text" name="nombres" id="nombres" placeholder="Nombre">
-      <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Apellido">
-      <input class="controls" type="email" name="correo" id="correo" placeholder="Correo electrónico">
-      <input class="controls" type="password" name="pass" id="pass" placeholder="Contraseña">
-      <input class="botons" type="file" name="archivosubido" id="archivosubido" placeholder="sa">
-      <input class="btn_send" type="submit" value="Registrar">
+  <form action="index_p.php" method="POST" enctype="multipart/form-data">
+    <section class="class_index">
+      <h4>Acceso</h4>
+      <input class="controls" type="text" name="user" id="user" placeholder="Usuario">
+      <input class="controls" type="text" name="pass" id="pass" placeholder="Contraseña">
+      <input class="btn_send" type="submit" value="Ingresar">
+      <a class="htext" href="registro.php">No tengo una cuenta</a>
     </section>
   </form>
 </body>
